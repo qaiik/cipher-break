@@ -10,5 +10,5 @@ be, carefully and fully with full detail length and thought`
 }
 
 function decodeAnswer(text) {
-  return Array.from(tex)t.filter(n => isNaN(parseInt(n))).join('')
+  return Array.from(text).filter(n => isNaN(parseInt(n))).join('')
 }
